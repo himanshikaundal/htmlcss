@@ -1,0 +1,281 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* color:#fff; */
+}
+.logo{
+  color:black;
+}
+.content{
+  color:#fff;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+  align-items: center;
+  background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZmVzc2lvbmFsJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80') no-repeat center center/cover;
+  height:50vh;
+  
+}
+.content .btn{
+  background: red;
+  padding:12px 40px;
+  color:#fff;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-top: 15px;
+}
+.navbar .btn{
+  color:#fff;
+}
+.content span{
+  color:red;
+  border-radius: 50px;
+}
+.circle{
+  background: red;
+
+
+}
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 20px;
+}
+li .btn{
+  height: 40px;
+  width:90px;
+  background: red;
+  border-radius: 10px;
+}
+/* link horizontal */
+.navbar ul{
+  display:flex;
+  align-items: center;
+  list-style-type: none;
+}
+ul li{
+  padding:10px 20px 10px 20px;
+  
+}
+ul li a{
+  text-decoration: none;
+
+}
+.navbar nav ul li a{
+  color : gray;
+}
+/* home red */
+.navbar nav ul li a:hover{
+  color:red;
+}
+/* section */
+#main .main-sec{
+  display: flex;
+  margin-bottom: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+}
+.left-div {
+  width:50%;
+}
+.right-div{
+  width:50%;
+}
+.main-sec{
+  margin-top: 20px;
+}
+.main-sec .left-div{
+  padding: 0 40px;
+}
+.main-sec .right-div{
+  padding: 0 40px;
+}
+.main-sec .left-div .left-div-head{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.icons{
+  background-color: gray;
+  display:flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.icons img{
+  width:60%;
+  filter: grayscale(0.7);
+}
+.icons img:hover{
+  background:aliceblue;
+}
+/* list of section */
+.card{
+  display:flex;
+  flex-wrap: wrap; 
+  width:100vw;
+  margin-top: 20px;
+  
+}
+.left{
+  float:left;
+  width:7%;
+  padding-right: 10px;
+}
+.right{
+  float: right;
+  width:93%;
+}
+.card1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:800px;
+  list-style-type: none; 
+}
+.card1 .left svg{
+  fill: red;
+  min-width: 2rem;
+  max-width: 3rem;
+}
+.card li{
+  background: gray;
+  margin-top: 20px;
+  margin-left: 80px;
+  padding: 30px;
+  
+}
+
+/* link button */
+.link-butn{
+  display: flex;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  /* width:100%; */
+  justify-content: center;
+  margin-top: 50px;
+  
+}
+.link-butn li:hover{
+  background-color: red;
+}
+.link-butn a{
+  color:black;
+}
+.link-butn a:hover{
+  color:#fff;
+}
+/* image portfolio */
+#portfolio ul{
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap; 
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+#portfolio ul img{
+  display: flex;
+  width: 400px;
+  flex-direction: row;
+}
+
+/* footer */
+#end .fotup{
+  display: flex;
+  justify-content: space-around;
+  background: gray;
+  list-style-type: none;
+  padding-top: 10px;
+}
+#end h3{
+  color:#fff;
+}
+#end .fotdwn{
+  text-align: center;
+  background: rgb(63, 60, 60);
+  color: #fff;
+  height: 50px;
+  padding: 10px 0;
+}
+.useful ul {
+  list-style-type: none;
+}
+.useful ul a{
+  color: rgb(168, 156, 156);
+}
+.serv ul{
+  list-style-type: none;
+
+}
+.serv ul a{
+  color: rgb(168, 156, 156);
+}
+.info ul{
+  display: flex;
+  list-style-type: none;
+}
+.info p{
+  color: #fff;
+}
+.sub p{
+  color: #fff;
+}
+.sub ul{
+  display: flex;
+  list-style: none;
+  height: 40px;
+} */
+ .textsub{
+  height: 2rem;
+} 
+.sub ul .slink{
+  background: red; 
+   color: #fff; 
+} */
+.sub .textsub{
+  height: 20px;
+} 
+/* .sub li input{
+  border-style: none;
+  width: 15rem;
+  height: 2.9rem;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+} */
+.sub-class input{
+  width: 100%;
+  height: 30px;
+  padding-right: 0;
+}
+.sub-class .slink{
+  background-color: red;
+  color: #fff;
+}
+/* .slink{
+  background: red;
+  color: #fff;
+  width: 7rem; 
+  height: 3.4rem; 
+  padding: 4px;
+  padding-top: 15px;
+  text-align: center; 
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  
+} */
+.info ul svg{
+  fill:#fff;
+  min-width: 1rem;
+  max-width: 2rem;
+
+}
+
